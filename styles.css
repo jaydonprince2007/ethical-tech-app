@@ -1,0 +1,60 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #8dccdb;
+}
+/* Increase the font size of the heading */
+.header h1
+{
+  font-size: 40px;
+}
+/* Style the top navigation bar */
+.navbar
+{
+  overflow: hidden;
+  padding: 1vh;
+  /*background-color: #4890a400;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* Style the navigation bar links */
+.navbar a 
+{
+  float: left;
+  display: block;
+  border-style:double;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: color .5s, background .5s;
+}
+
+/* Change color on hover */
+.navbar a:hover
+{
+  background-color: white;
+  color: black;
+  transition: color .5s, background .5s;
+}
+
+.logo
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+html .logo img
+{
+  width: 5%;
+  height: auto;
+}
